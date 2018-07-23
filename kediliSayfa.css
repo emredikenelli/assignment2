@@ -1,11 +1,80 @@
 
-.genelPanel {
+.generalContainer {
 	display: flex;
-	justify-content: center;
-	align-items: center;
 }
 
-.ortadakiler{
+.generalContainer .leftPanel{
+
+}
+
+.generalContainer .rightPanel{
+
+	width: 20%;
+}
+
+.generalContainer .middlePanel{
+}
+
+.generalContainer .middlePanel .top{
 	display: flex;
-	justify-content: flex-end;
+
+}
+
+.generalContainer .middlePanel .top .topLeft{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.generalContainer .middlePanel .top .topLeft .leftBottom{
+
+}
+
+.generalContainer .middlePanel .top .getYour{
+}
+
+.generalContainer .middlePanel .middle{
+	background-color: DarkOrange; 
+
+}
+
+.generalContainer .middlePanel .middle .container{
+	display: flex;
+	flex-direction: column;
+}
+
+.generalContainer .middlePanel .middle .container .checkboxes{
+	display: flex;
+	justify-content: space-between;
+}
+
+.generalContainer .middlePanel .middle .container .checkboxesLeft{
+	display: flex;
+	flex-direction: column;
+}
+
+.generalContainer .middlePanel .middle .container .checkboxesMiddle{
+	
+}
+
+.generalContainer .middlePanel .middle .container .checkboxesRight #tweet{
+	background-color: blue;
+	height: 20px;
+}
+
+#littleOctocat{
+	display: flex;
+	height: 50px;
+	width: 50px;
+	align-self: flex-end;
+}
+
+.generalContainer .middlePanel .leftBottom .hardOne .top{
+	display: flex;
+	border: solid;
+}
+
+.generalContainer .middlePanel .leftBottom .hardOne .bottom{
+	display: flex;
+	border: solid;
 }
